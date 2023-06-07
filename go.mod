@@ -2,6 +2,8 @@ module github.com/WangXiangUSTC/tidb-lite
 
 go 1.16
 
+replace github.com/pingcap/tidb => github.com/twotigers93/tidb v0.0.0-20230607074332-3a353f02abad
+
 require (
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/pingcap/check v0.0.0-20200212061837-5e12011dc712
